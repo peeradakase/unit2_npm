@@ -1,0 +1,24 @@
+{
+  "name": "npm-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ok": "echo \"xxx\" && exit 1",
+    "install:all": "npm i vue && npm i --save-dev webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "jquery": "^3.6.1",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "vue": "^3.2.40"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "ts": "^0.2.2",
+    "webpack": "^5.74.0"
+  }
+}
